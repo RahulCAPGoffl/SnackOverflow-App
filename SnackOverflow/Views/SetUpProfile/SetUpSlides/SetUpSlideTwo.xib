@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SetUpSlideTwo" customModule="SnackOverflow" customModuleProvider="target">
+            <connections>
+                <outlet property="SlideTwo" destination="fqI-Je-6pc" id="pZf-2k-4ua"/>
+                <outlet property="backToSlideOne" destination="AN2-7g-WSM" id="kPO-m8-dt8"/>
+                <outlet property="continueToSlideThree" destination="ZIo-7v-Wbo" id="FqS-Tl-NOP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="fqI-Je-6pc">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What is your goal ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eLk-gt-gQy">
+                    <rect key="frame" x="16" y="23.999999999999996" width="361" height="33.666666666666657"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                    <color key="textColor" red="0.33333333329999998" green="0.30196078430000001" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zF6-xQ-8ha">
+                    <rect key="frame" x="16" y="97.666666666666671" width="361" height="56.000000000000014"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="RFJ-0l-ML2"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="gray" image="Unchecked" title=" No goal! Just snacking" imagePadding="10">
+                        <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="baseForegroundColor" red="0.59215686270000001" green="0.56862745100000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </buttonConfiguration>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZJ-L0-8gA">
+                    <rect key="frame" x="16" y="169.66666666666666" width="361" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="V1n-xv-RJP"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="gray" image="Unchecked" title="Snacking for party time!" imagePadding="10">
+                        <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="baseForegroundColor" red="0.59215686270000001" green="0.56862745100000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </buttonConfiguration>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqf-xe-Pi4">
+                    <rect key="frame" x="16" y="241.66666666666663" width="361" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="uym-rI-OOJ"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="gray" image="Unchecked" title="Snacking in a healthy way" imagePadding="10">
+                        <fontDescription key="titleFontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                        <color key="baseForegroundColor" red="0.59215686270000001" green="0.56862745100000001" blue="0.59215686270000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </buttonConfiguration>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZIo-7v-Wbo">
+                    <rect key="frame" x="16" y="674" width="361" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="Pn6-Lv-O2x"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Continue">
+                        <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                        <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="baseBackgroundColor" red="0.93333333330000001" green="0.4039215686" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </buttonConfiguration>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AN2-7g-WSM">
+                    <rect key="frame" x="16" y="746" width="361" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="v6v-uj-bY8"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Back">
+                        <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                        <color key="baseForegroundColor" red="0.93333333330000001" green="0.4039215686" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="baseBackgroundColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </buttonConfiguration>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="tZH-vn-47A"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="rqf-xe-Pi4" firstAttribute="leading" secondItem="fqI-Je-6pc" secondAttribute="leading" constant="16" id="4xL-Yd-nUv"/>
+                <constraint firstItem="ZIo-7v-Wbo" firstAttribute="leading" secondItem="fqI-Je-6pc" secondAttribute="leading" constant="16" id="6VR-UO-Fyo"/>
+                <constraint firstAttribute="trailing" secondItem="rZJ-L0-8gA" secondAttribute="trailing" constant="16" id="8mI-0L-ILx"/>
+                <constraint firstItem="eLk-gt-gQy" firstAttribute="leading" secondItem="fqI-Je-6pc" secondAttribute="leading" constant="16" id="GpW-8i-N4F"/>
+                <constraint firstItem="eLk-gt-gQy" firstAttribute="top" secondItem="fqI-Je-6pc" secondAttribute="top" constant="24" id="HKb-SH-HkF"/>
+                <constraint firstAttribute="trailing" secondItem="rqf-xe-Pi4" secondAttribute="trailing" constant="16" id="MSu-F2-1h3"/>
+                <constraint firstItem="zF6-xQ-8ha" firstAttribute="leading" secondItem="fqI-Je-6pc" secondAttribute="leading" constant="16" id="MbL-HQ-MZk"/>
+                <constraint firstItem="AN2-7g-WSM" firstAttribute="top" secondItem="ZIo-7v-Wbo" secondAttribute="bottom" constant="16" id="PXL-YW-lFf"/>
+                <constraint firstItem="rqf-xe-Pi4" firstAttribute="top" secondItem="rZJ-L0-8gA" secondAttribute="bottom" constant="16" id="SkE-d7-QH7"/>
+                <constraint firstAttribute="trailing" secondItem="AN2-7g-WSM" secondAttribute="trailing" constant="16" id="Uh9-vD-tbP"/>
+                <constraint firstItem="AN2-7g-WSM" firstAttribute="leading" secondItem="fqI-Je-6pc" secondAttribute="leading" constant="16" id="cua-Tw-L82"/>
+                <constraint firstItem="zF6-xQ-8ha" firstAttribute="top" secondItem="eLk-gt-gQy" secondAttribute="bottom" constant="40" id="dRX-LI-Gw5"/>
+                <constraint firstAttribute="trailing" secondItem="zF6-xQ-8ha" secondAttribute="trailing" constant="16" id="fvx-ef-MWm"/>
+                <constraint firstItem="rZJ-L0-8gA" firstAttribute="leading" secondItem="fqI-Je-6pc" secondAttribute="leading" constant="16" id="g3s-mB-vZb"/>
+                <constraint firstAttribute="trailing" secondItem="ZIo-7v-Wbo" secondAttribute="trailing" constant="16" id="lI3-xw-abN"/>
+                <constraint firstAttribute="trailing" secondItem="eLk-gt-gQy" secondAttribute="trailing" constant="16" id="oKw-ky-kPt"/>
+                <constraint firstItem="tZH-vn-47A" firstAttribute="bottom" secondItem="AN2-7g-WSM" secondAttribute="bottom" constant="16" id="pTZ-6u-Guo"/>
+                <constraint firstItem="rZJ-L0-8gA" firstAttribute="top" secondItem="zF6-xQ-8ha" secondAttribute="bottom" constant="16" id="uPl-jF-4qW"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="93.89312977099236" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Unchecked" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

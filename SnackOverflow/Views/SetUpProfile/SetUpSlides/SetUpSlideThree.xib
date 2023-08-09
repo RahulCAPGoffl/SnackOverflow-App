@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SetUpSlideThree" customModule="SnackOverflow" customModuleProvider="target">
+            <connections>
+                <outlet property="backToSlideTwo" destination="f2o-H1-7nc" id="uCi-ga-cXb"/>
+                <outlet property="continueToSlideFour" destination="h6M-K7-e9g" id="8Y5-L6-nF9"/>
+                <outlet property="productViewCollection" destination="Cqs-Pz-FVu" id="Ry4-cv-OU4"/>
+                <outlet property="slideThree" destination="1x8-au-puo" id="mHb-58-bLP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1x8-au-puo">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select 4 item below that suits your mood" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5zi-kF-ban">
+                    <rect key="frame" x="16" y="24" width="361" height="67"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                    <color key="textColor" red="0.33333333329999998" green="0.30196078430000001" blue="0.33725490200000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="Cqs-Pz-FVu">
+                    <rect key="frame" x="16" y="115" width="361" height="577"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="22" minimumInteritemSpacing="22" id="LhC-Ba-dGm">
+                        <size key="itemSize" width="168" height="220"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="1" minY="0.0" maxX="1" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="qvf-wq-U6a"/>
+                        <outlet property="delegate" destination="-1" id="L9s-Ar-6BC"/>
+                    </connections>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SxD-uw-g9h" userLabel="buttonView">
+                    <rect key="frame" x="0.0" y="692" width="393" height="160"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6M-K7-e9g">
+                            <rect key="frame" x="16" y="16" width="361" height="56"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="56" id="mRn-F9-z4O"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" title="Build a snack bundle box">
+                                <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="baseBackgroundColor" red="0.93333333330000001" green="0.4039215686" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </buttonConfiguration>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f2o-H1-7nc">
+                            <rect key="frame" x="16" y="88" width="361" height="56"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="56" id="3eO-6F-Fgq"/>
+                            </constraints>
+                            <state key="normal" title="Button"/>
+                            <buttonConfiguration key="configuration" style="filled" title="Back">
+                                <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="baseForegroundColor" red="0.93333333330000001" green="0.4039215686" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="baseBackgroundColor" red="0.92941176469999998" green="0.92549019610000005" blue="0.92941176469999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </buttonConfiguration>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="f2o-H1-7nc" secondAttribute="trailing" constant="16" id="2mD-83-rNQ"/>
+                        <constraint firstAttribute="trailing" secondItem="h6M-K7-e9g" secondAttribute="trailing" constant="16" id="5fw-vM-hCh"/>
+                        <constraint firstItem="h6M-K7-e9g" firstAttribute="top" secondItem="SxD-uw-g9h" secondAttribute="top" constant="16" id="CyH-Bm-Zwm"/>
+                        <constraint firstItem="h6M-K7-e9g" firstAttribute="leading" secondItem="SxD-uw-g9h" secondAttribute="leading" constant="16" id="Yhp-en-Ntm"/>
+                        <constraint firstItem="f2o-H1-7nc" firstAttribute="top" secondItem="h6M-K7-e9g" secondAttribute="bottom" constant="16" id="fdH-cs-0a8"/>
+                        <constraint firstItem="f2o-H1-7nc" firstAttribute="leading" secondItem="SxD-uw-g9h" secondAttribute="leading" constant="16" id="nIF-8y-mO6"/>
+                        <constraint firstAttribute="bottom" secondItem="f2o-H1-7nc" secondAttribute="bottom" constant="16" id="t88-DV-hm5"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Oqu-nV-HFA"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Cqs-Pz-FVu" firstAttribute="top" secondItem="5zi-kF-ban" secondAttribute="bottom" constant="24" id="2YF-on-TbP"/>
+                <constraint firstItem="5zi-kF-ban" firstAttribute="top" secondItem="1x8-au-puo" secondAttribute="top" constant="24" id="2c3-MQ-hD0"/>
+                <constraint firstAttribute="trailing" secondItem="Cqs-Pz-FVu" secondAttribute="trailing" constant="16" id="3Ne-Ju-waF"/>
+                <constraint firstItem="SxD-uw-g9h" firstAttribute="leading" secondItem="1x8-au-puo" secondAttribute="leading" id="Ruv-Hy-eIF"/>
+                <constraint firstItem="Cqs-Pz-FVu" firstAttribute="leading" secondItem="1x8-au-puo" secondAttribute="leading" constant="16" id="U5m-60-EFp"/>
+                <constraint firstAttribute="trailing" secondItem="5zi-kF-ban" secondAttribute="trailing" constant="16" id="bVU-k6-8ah"/>
+                <constraint firstItem="SxD-uw-g9h" firstAttribute="top" secondItem="Cqs-Pz-FVu" secondAttribute="bottom" id="cNq-2N-qRb"/>
+                <constraint firstItem="Oqu-nV-HFA" firstAttribute="trailing" secondItem="SxD-uw-g9h" secondAttribute="trailing" id="jwe-fS-xNy"/>
+                <constraint firstItem="5zi-kF-ban" firstAttribute="leading" secondItem="1x8-au-puo" secondAttribute="leading" constant="16" id="xg1-h2-DiI"/>
+                <constraint firstAttribute="bottom" secondItem="SxD-uw-g9h" secondAttribute="bottom" id="ymV-mJ-DLh"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="101.5267175572519" y="19.718309859154932"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

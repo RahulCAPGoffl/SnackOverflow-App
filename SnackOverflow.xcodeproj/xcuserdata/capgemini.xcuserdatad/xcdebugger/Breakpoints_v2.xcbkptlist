@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "307BDD65-44A9-4358-BD78-38B76B6FF315"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50233E4C-5969-42B3-A357-B3DD3F9E5F76"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
+            landmarkName = "OnboardingViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "50233E4C-5969-42B3-A357-B3DD3F9E5F76 - 6d7ec171b7f7037a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.getStartedButton.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "50233E4C-5969-42B3-A357-B3DD3F9E5F76 - 61f141554478d366"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.getStartedButton.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "50233E4C-5969-42B3-A357-B3DD3F9E5F76 - 90b4b0e62d9faf75"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.getStartedButton.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "50233E4C-5969-42B3-A357-B3DD3F9E5F76 - 7636b4b567c60cdc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.getStartedButton.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "50233E4C-5969-42B3-A357-B3DD3F9E5F76 - b29a3df0b3052b78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; SnackOverflow.OnboardingViewController"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "200">
+               </Location>
+               <Location
+                  uuid = "50233E4C-5969-42B3-A357-B3DD3F9E5F76 - 78351e8d83325ff3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SnackOverflow.OnboardingViewController&gt;"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59B48199-27BF-41ED-97BF-867D5F8EDC70"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "OnboardingViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22704B4E-E858-4E55-B2AF-6341EFE823D5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnackOverflow/Views/Onboarding/OnboardingCollectionViewCellController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "OnboardingCollectionViewCellController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "22704B4E-E858-4E55-B2AF-6341EFE823D5 - c8220dcf3d75e748"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingCollectionViewCellController.slideImageView.getter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingCollectionViewCellController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "85">
+               </Location>
+               <Location
+                  uuid = "22704B4E-E858-4E55-B2AF-6341EFE823D5 - 548c51b8cff75344"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingCollectionViewCellController.slideImageView.setter : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingCollectionViewCellController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "22704B4E-E858-4E55-B2AF-6341EFE823D5 - f56a154add56ed78"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingCollectionViewCellController.slideImageView.modify : Swift.Optional&lt;__C.UIImageView&gt;"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingCollectionViewCellController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "22704B4E-E858-4E55-B2AF-6341EFE823D5 - 8b366be374b05ba6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingCollectionViewCellController.slideImageView.modify : Swift.Optional&lt;__C.UIImageView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingCollectionViewCellController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "26">
+               </Location>
+               <Location
+                  uuid = "22704B4E-E858-4E55-B2AF-6341EFE823D5 - def242a52a97a93e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingCollectionViewCellController.init(frame: __C.CGRect) -&gt; SnackOverflow.OnboardingCollectionViewCellController"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingCollectionViewCellController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "199">
+               </Location>
+               <Location
+                  uuid = "22704B4E-E858-4E55-B2AF-6341EFE823D5 - 3b5adfa486e8e6ff"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingCollectionViewCellController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SnackOverflow.OnboardingCollectionViewCellController&gt;"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingCollectionViewCellController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "127">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "64C12653-8512-47AD-BE0F-54289F3D5D4F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "64C12653-8512-47AD-BE0F-54289F3D5D4F - dbc00ec2134e0531"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "500">
+               </Location>
+               <Location
+                  uuid = "64C12653-8512-47AD-BE0F-54289F3D5D4F - dbc00ec2134e0531"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "64C12653-8512-47AD-BE0F-54289F3D5D4F - dbc00ec2134e0510"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "64C12653-8512-47AD-BE0F-54289F3D5D4F - dbc00ec2134e0531"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "754">
+               </Location>
+               <Location
+                  uuid = "64C12653-8512-47AD-BE0F-54289F3D5D4F - dbc00ec2134e04d2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "64C12653-8512-47AD-BE0F-54289F3D5D4F - dbc00ec2134e0577"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "64C12653-8512-47AD-BE0F-54289F3D5D4F - dbc00ec2134e00d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "64C12653-8512-47AD-BE0F-54289F3D5D4F - 46790ceefef7e7a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/RahulLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "472">
+               </Location>
+               <Location
+                  uuid = "64C12653-8512-47AD-BE0F-54289F3D5D4F - ea3a2fa63aa9750b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/rahuliOS/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9064FE73-D775-47BA-83DD-8AC54809BBCB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "9064FE73-D775-47BA-83DD-8AC54809BBCB - 40c735c617addb25"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, numberOfItemsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "9064FE73-D775-47BA-83DD-8AC54809BBCB - 40c735c617addb06"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, numberOfItemsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "9064FE73-D775-47BA-83DD-8AC54809BBCB - 40c735c617addb9b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, numberOfItemsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "43"
+                  endingLineNumber = "43"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "9064FE73-D775-47BA-83DD-8AC54809BBCB - 40c735c617addf41"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, numberOfItemsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/roshanLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "9064FE73-D775-47BA-83DD-8AC54809BBCB - dd7e37eafa14398a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, numberOfItemsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/RahulLearning/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "9064FE73-D775-47BA-83DD-8AC54809BBCB - 713d14a23e4aab29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SnackOverflow.OnboardingViewController.collectionView(_: __C.UICollectionView, numberOfItemsInSection: Swift.Int) -&gt; Swift.Int"
+                  moduleName = "SnackOverflow"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/capgemini/Desktop/rahuliOS/SnackOverflow/SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "44">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D2F75AE0-39BC-4A14-BE69-AD2A4BE3EDCF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnackOverflow/Views/Onboarding/OnboardingViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "collectionView(_:numberOfItemsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C3682E04-3D60-4757-8149-5533FF3B3A6E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnackOverflow/Views/WelcomeMain/WelcomeMainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F6628185-82E7-49AC-B71E-0282AE5D7123"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SnackOverflow/Views/SetUpProfile/EditingPages/EditBundleViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "5"
+            endingLineNumber = "5"
+            landmarkName = "EditBundleViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WelcomeLoginViewController" customModule="SnackOverflow" customModuleProvider="target">
+            <connections>
+                <outlet property="emailTextField" destination="0cR-lR-eeO" id="4la-AF-MSN"/>
+                <outlet property="loginButton" destination="VsA-w5-Kpn" id="Ckk-2v-goc"/>
+                <outlet property="logo" destination="Coa-JK-hK9" id="n2T-O7-gWC"/>
+                <outlet property="logoTopConstraint" destination="U6N-Cf-aUw" id="ZDA-Za-76O"/>
+                <outlet property="passwordTextField" destination="yVf-Ch-ukI" id="sNb-oG-dUB"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="cmf-iZ-acu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome back!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88t-Ik-mva">
+                    <rect key="frame" x="16" y="359.33333333333331" width="361" height="33.666666666666686"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="28"/>
+                    <color key="textColor" red="0.33333333333333331" green="0.30196078431372547" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Volcano" translatesAutoresizingMaskIntoConstraints="NO" id="Coa-JK-hK9">
+                    <rect key="frame" x="160" y="217" width="120" height="99"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="99" id="UmV-Be-02W"/>
+                        <constraint firstAttribute="width" constant="120" id="uni-nR-3rH"/>
+                    </constraints>
+                </imageView>
+                <textField opaque="NO" contentMode="center" semanticContentAttribute="spatial" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Steve_Donuto@gmail.com" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0cR-lR-eeO">
+                    <rect key="frame" x="16" y="433" width="361" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="RyL-LC-QLG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" textContentType="email"/>
+                </textField>
+                <textField opaque="NO" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="248" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="HaveYou8tTod6y" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="yVf-Ch-ukI">
+                    <rect key="frame" x="16" y="505" width="361" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="uZ3-eB-Urr"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
+                </textField>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1tV-DB-jEd">
+                    <rect key="frame" x="80" y="589" width="233" height="2"/>
+                    <color key="backgroundColor" red="0.92941176470588238" green="0.92549019607843142" blue="0.92941176470588238" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="2" id="BVz-p7-WM8"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VsA-w5-Kpn">
+                    <rect key="frame" x="16" y="619" width="361" height="56"/>
+                    <color key="backgroundColor" red="0.93333333333333335" green="0.40392156862745099" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="Gt3-6M-jj9"/>
+                    </constraints>
+                    <color key="tintColor" red="0.92941176469999998" green="0.92549019610000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="plain" title="Login" cornerStyle="dynamic">
+                        <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="loginButtonClicked:" destination="-1" eventType="touchUpInside" id="nnn-vZ-hwo"/>
+                    </connections>
+                </button>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By clicking &quot;Create Account&quot;, I agree to SnackOverflow's TOS and Privacy Policy." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JtK-J5-LDU">
+                    <rect key="frame" x="16" y="707" width="361" height="28.666666666666629"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.59215686274509804" green="0.56862745098039214" blue="0.59215686274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="VsA-w5-Kpn" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="6Vg-25-pwB"/>
+                <constraint firstItem="VsA-w5-Kpn" firstAttribute="top" secondItem="1tV-DB-jEd" secondAttribute="bottom" constant="28" id="6kS-vk-Mzz"/>
+                <constraint firstItem="88t-Ik-mva" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Bpd-oX-t3m"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="88t-Ik-mva" secondAttribute="trailing" constant="16" id="C8f-pw-v6u"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="JtK-J5-LDU" secondAttribute="trailing" constant="16" id="DrL-CQ-hu6"/>
+                <constraint firstItem="1tV-DB-jEd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="80" id="FTW-XH-1aQ"/>
+                <constraint firstItem="Coa-JK-hK9" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="160" id="Hi1-Hx-ptF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="yVf-Ch-ukI" secondAttribute="trailing" constant="16" id="Oxu-e7-FIt"/>
+                <constraint firstItem="JtK-J5-LDU" firstAttribute="top" secondItem="VsA-w5-Kpn" secondAttribute="bottom" constant="32" id="Pqv-WB-gOP"/>
+                <constraint firstItem="0cR-lR-eeO" firstAttribute="top" secondItem="88t-Ik-mva" secondAttribute="bottom" constant="40" id="Ras-wT-aPI"/>
+                <constraint firstItem="Coa-JK-hK9" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="158" id="U6N-Cf-aUw"/>
+                <constraint firstItem="yVf-Ch-ukI" firstAttribute="top" secondItem="0cR-lR-eeO" secondAttribute="bottom" constant="16" id="U79-Ia-MAk"/>
+                <constraint firstAttribute="trailing" secondItem="1tV-DB-jEd" secondAttribute="trailing" constant="80" id="X4h-4h-GN1"/>
+                <constraint firstItem="0cR-lR-eeO" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="YIZ-3G-Hd5"/>
+                <constraint firstItem="JtK-J5-LDU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="Ywz-JO-rCa"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="0cR-lR-eeO" secondAttribute="trailing" constant="16" id="c3n-9B-5b7"/>
+                <constraint firstItem="88t-Ik-mva" firstAttribute="top" secondItem="Coa-JK-hK9" secondAttribute="bottom" constant="43.200000000000003" id="ipZ-wk-h2H"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VsA-w5-Kpn" secondAttribute="trailing" constant="16" id="jVV-0e-bmC"/>
+                <constraint firstItem="yVf-Ch-ukI" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="pq0-0v-vst"/>
+                <constraint firstItem="1tV-DB-jEd" firstAttribute="top" secondItem="yVf-Ch-ukI" secondAttribute="bottom" constant="28" id="zRR-0i-Uo2"/>
+            </constraints>
+            <point key="canvasLocation" x="125.95419847328243" y="95.774647887323951"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Volcano" width="122" height="101"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
